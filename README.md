@@ -21,7 +21,7 @@ This project is a Staff Verification System for the Federal University of Techno
    ```bash
    git clone https://github.com/praiseordu/Staff-voting-verification-System.git
    cd staff-verification-system
-Install the dependencies
+## Install the dependencies
 
 It's recommended to use a virtual environment. You can set one up using venv:
 
@@ -30,32 +30,32 @@ bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-Install the required packages:
+## Install the required packages:
 
 bash
 
 pip install -r requirements.txt
 
-Run the Flask server
+## Run the Flask server
 
 bash
 
 python app.py
 
-Run the Tkinter GUI
+## Run the Tkinter GUI
 
 bash
 
 cd frontend
 python main.py
 
-Usage
+## Usage
 
     Use the "Upload Excel" button in the GUI to upload a file with staff details.
     Enter a barcode ID and click "Verify" to verify a staff member.
     The verification result will display the staff name, SP number, and a unique voting code if the verification is successful.
 
-Project Structure
+## Project Structure
 
 perl
 
@@ -68,7 +68,7 @@ staff-verification-system/
 ├── README.md                  # Project description and instructions
 └── .gitignore                 # Specifies files and directories to ignore
 
-.gitignore
+## .gitignore
 
 markdown
 
@@ -80,13 +80,13 @@ __pycache__/
 *.db
 venv/
 
-License
+## License
 
 This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
-Contact
+## Contact
 
 If you have any questions or suggestions, feel free to contact me at [praiseordu@gmail.com].
-Acknowledgements
+# Acknowledgements
 
     Federal University of Technology, Owerri for providing the use case.
     The developers and maintainers of the libraries used in this project.
